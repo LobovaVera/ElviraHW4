@@ -16,9 +16,8 @@ RaizeAToTheBPowerB(a, b);
 void testIncomDataForError( string str, out uint checkedNumber)
 {
 bool testIncomeForError = uint.TryParse(str, out checkedNumber);
-if (testIncomeForError/*|| uint.Parse(str) == 0*/)
+if (testIncomeForError)
 {
-    //Console.WriteLine("Это натуральное число");
    checkedNumber = uint.Parse(str);
 
 if (int.Parse(str) == 0)

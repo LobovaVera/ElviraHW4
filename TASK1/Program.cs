@@ -9,7 +9,7 @@
 int a, b;
 ReceiveTwoNumbers( out a, out b);
 //Console.WriteLine( $" A = {a} B = {b}");
-RaizeAToTheBPowerB(a, b);
+RaizeAToThePowerB(a, b);
 
 // methods
 void ReceiveTwoNumbers( out int A, out int B)
@@ -22,7 +22,7 @@ void ReceiveTwoNumbers( out int A, out int B)
 
 }
 
-void RaizeAToTheBPowerB (int A, int B)
+void RaizeAToThePowerB (int A, int B)
 {
     int poweredResult = A;
     for (int i = 1; i < B; i ++)
